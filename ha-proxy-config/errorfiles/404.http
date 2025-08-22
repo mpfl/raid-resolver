@@ -7,6 +7,6 @@ Content-Type: text/html
 <html>
    <body>
       <h1>404 Not Found</h1>
-      <p>Unable to resolve RAiD.</p>
+      <p>You should be seeing this page if the Handle server was unable to resolve the RAiD</p>
    </body>
 </html>
