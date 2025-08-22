@@ -12,5 +12,5 @@ error page, as defined in `ha-proxy-config/errorfiles/404.http`.
 1. Clone this repo
 2. `docker compose up`
 3. Try to visit some URLs
-    * Valid RAiD: [http://localhost:8080/10.26312/db3c5429]
-    * Invalid RAiD: [http://localhost:8080/10.26312/foo] 
+    * Valid RAiD: <http://localhost:8080/10.26312/db3c5429>
+    * Invalid RAiD: <http://localhost:8080/10.26312/foo>
