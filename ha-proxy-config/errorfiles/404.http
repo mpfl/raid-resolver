@@ -1,0 +1,12 @@
+HTTP/1.1 404 Not Found
+Cache-Control: no-cache
+Connection: close
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html>
+   <body>
+      <h1>404 Not Found</h1>
+      <p>Unable to resolve RAiD.</p>
+   </body>
+</html>

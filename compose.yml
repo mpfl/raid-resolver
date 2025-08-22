@@ -1,0 +1,18 @@
+services:
+  haproxy:
+    image: ghcr.io/haproxytech/haproxy-docker-alpine:3.2.4
+    restart: unless-stopped
+    volumes:
+      - ./ha-proxy-config:/usr/local/etc/haproxy/:ro
+    ports:
+      - 8080:80
+      - 8443:443
+
+  raidorg:
+    restart: unless-stopped
+    image: nginx:1.29.1-alpine
+    volumes:
+      - ./raidorg-site/nginx.conf:/etc/nginx/nginx.conf
+      - ./raidorg-site/content:/var/www/
+    environment:
+      - TZ=Australia/Perth
